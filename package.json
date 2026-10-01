@@ -1,0 +1,29 @@
+{
+  "name": "@devfun/opentoken-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": "https://github.com/devfun-org/opentoken-contracts",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "lint": "forge fmt --check && node --check tools/verify-build.mjs && node --check tools/check-coverage.mjs",
+    "build": "forge build && node tools/verify-build.mjs",
+    "test": "forge test -vvv",
+    "coverage": "forge coverage --exclude-tests --report summary --report lcov && node tools/check-coverage.mjs",
+    "audit:dependencies": "pnpm audit"
+  },
+  "devDependencies": {
+    "solc": "0.8.36",
+    "viem": "2.37.13"
+  },
+  "pnpm": {
+    "overrides": {
+      "ws@>=8.0.0 <8.21.0": "8.21.0",
+      "tmp@<0.2.7": "0.2.7"
+    }
+  }
+}

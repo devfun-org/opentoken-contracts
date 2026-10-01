@@ -1,0 +1,66 @@
+{
+  "version": 3,
+  "environment": "prod",
+  "deployments": [
+    {
+      "id": "opentoken-atomic-base-prod-20260927",
+      "chainId": 8453,
+      "sourceRevision": "144436d36e7982273158279605d1877701fabe61",
+      "token": "0x024f68013b8b7e8E2aB85F3716ee1FE8511b3968",
+      "minter": "0x77cAe4a61409956d33DDb7dC063708E6324Ae7ee",
+      "usdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "treasuryVault": "0x6749210938556D215C13Dad2D3f6DFF49DfB9b6D",
+      "financeSafe": "0xff1871570603C98a7308254c7Cc26a8a0Bc8F937",
+      "governanceTimelock": "0xb81A87F651C326642798f7F6698104aB76292626",
+      "guardian": "0x6d9B25f186F90ad781EBcF7d205682cccD20708e",
+      "burner": "0x4F034F5F60F27722736C4c80Ede713cC3FB20D45",
+      "factory": "0x5022674732fd593bbC1Af4b6007CaE15b6CF16e8",
+      "implementation": "0x4b7B4a2736fAD448Aa0c50E4A8B69F7d9f40696B",
+      "purchaseRouter": "0x4978F88f73201B154A91ad7269BBA10651903950",
+      "minDelay": "172800",
+      "startBlock": "51857148",
+      "initialAuthorizedMintTotal": "10000000000",
+      "runtimeHashes": {
+        "OpenTokenTimelock": "0x851f348368f6f0311c08d2441a8a684e56e4417da7bcc349cc0ce038a58b15bd",
+        "OpenToken": "0x7e0752f454088d634bbf172c30c6459b6fab1ee02459113d84454b2f99f6b66f",
+        "TreasuryVault": "0x4811344b18ef680adfd15606d419b8739ac8ab8586ceb7fc669f73903bba77e6",
+        "OpenTokenMinter": "0x35a04ed7955483ab64a766cc4c5cfce33af5887c7e6f00bea7b356fa9c168305",
+        "PaidOpenTokenCollector": "0x10e707f70482fdf0cda470823b83009c1084c09a5a94ba1ab5024a07e0d90718",
+        "OpenTokenDepositFactory": "0x89063c2af0b289c9b9096e12f8667d414cffa46a982eed41641737b55145d384",
+        "OpenTokenDepositReceiver": "0x84626908bdf243e51f6370ed4279acc93fb363557a2edcf9f93faac2283101db",
+        "OpenTokenPurchaseRouter": "0x3b7f63d3bb7aee200460aaa9eb2036c9b67869032b1988df11c40b09e3f76efa"
+      }
+    },
+    {
+      "id": "opentoken-atomic-monad-prod-20260929",
+      "chainId": 143,
+      "sourceRevision": "144436d36e7982273158279605d1877701fabe61",
+      "token": "0xccf3517f5b75b75aa599702c90a8a2cc297791f4",
+      "minter": "0x8d47e2e2358a0ff1ba6d9a4716365f338f8f2913",
+      "usdc": "0x754704bc059f8c67012fed69bc8a327a5aafb603",
+      "treasuryVault": "0x61978cb2e675a2a317f715e8efd2285d10d68272",
+      "financeSafe": "0xbaff5deb01c38c54c9f2c22f7b81a4c2652243a3",
+      "governanceTimelock": "0xdc262805f606697b22443018b652438bd2d52567",
+      "guardian": "0x6d9b25f186f90ad781ebcf7d205682cccd20708e",
+      "burner": "0x526875a09d2dd24114ca4454573e3abdc99ca31e",
+      "factory": "0xedb30485b755c46da0fcf841ded8acc401e489b2",
+      "implementation": "0x84db4cdaf8ae4c3c2ccaaba8cf9c6beca478f846",
+      "purchaseRouter": "0x2b8d237d269edd369cd1bda90d98a0be94129c47",
+      "minDelay": "172800",
+      "startBlock": "109061531",
+      "initialAuthorizedMintTotal": "50000000000",
+      "runtimeHashes": {
+        "OpenTokenTimelock": "0x851f348368f6f0311c08d2441a8a684e56e4417da7bcc349cc0ce038a58b15bd",
+        "OpenToken": "0x01d582c4b5e001a8c521b076a009a2f1fda9c39e6672263e74e0150b7eef4aad",
+        "OpenTokenMinter": "0xafdde238b19339688d7ecdc833ddddab70efe1257e136d5a91188eaec011d730",
+        "OpenTokenPurchaseRouter": "0xa99e7f07b291adf3a62a8776dcb9c82d301d28b60de6a4be9ae2bda535166e74",
+        "TreasuryVault": "0x75146dc1fce3ee146b0a60d509f7254b0a6e2b9b3ad347e4483c3c6b7ad50a24",
+        "PaidOpenTokenCollector": "0x9b04a2757aa180189e24f997871969e5448ac3b2e73cfcfee960ca7ddd07e6bf",
+        "OpenTokenDepositFactory": "0x0d8ee1d1d6f59001afa5f991253e065ce164cc5d90daa6e7540cc88e9451605f",
+        "OpenTokenDepositReceiver": "0xa86f4d9db1ee09e46c3c797f5e121758969c85dff28959a661a5a8d8f80ca543",
+        "Permit2": "0x332f9ca0fbd282f4a9b16f5332870dc98addc5172dd5e48ab6fa7c9be3d10fa0",
+        "x402ExactPermit2Proxy": "0xce6429c0bb49284660683287c0a8fe548a88379072327d026626909d202048b9"
+      }
+    }
+  ]
+}

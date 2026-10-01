@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-01T06:17:15.960Z",
+  "originalDeploymentSourceCommit": "144436d36e7982273158279605d1877701fabe61",
+  "compilerVersion": "0.8.36+commit.8a079791",
+  "submoduleRevisions": {
+    "lib/openzeppelin-contracts": "acd4ff74de833399287ed6b31b4debf6b2b35527",
+    "lib/forge-std": "bf647bd6046f2f7da30d0c2bf435e5c76a780c1b"
+  },
+  "bytecodeEvidence": "../verification/production-bytecode.json",
+  "chains": [
+    {
+      "chainId": 8453,
+      "originalDeploymentSourceCommit": "144436d36e7982273158279605d1877701fabe61",
+      "compilerVersion": "0.8.36+commit.8a079791",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "evmVersion": "shanghai",
+      "metadataBytecodeHash": "ipfs",
+      "initialAuthorizedMintTotal": "10000000000",
+      "initialSupply": "0",
+      "contracts": [
+        {
+          "name": "OpenTokenTimelock",
+          "address": "0xb81A87F651C326642798f7F6698104aB76292626",
+          "contractIdentifier": "src/opentoken/OpenTokenTimelock.sol:OpenTokenTimelock",
+          "deployment": {
+            "transactionHash": "0x1bce5cdb9594948c1b408a6fc654b1f6c9b095cb0a4c4d8078bccebeb0ae96a5",
+            "blockNumber": "51857148",
+            "transactionIndex": "30",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000000000000000000000000000000000000002a300000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000000100000000000000000000000082b8fdab5eca2618a5e917e1831010628e36655000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000",
+          "runtimeHash": "0x851f348368f6f0311c08d2441a8a684e56e4417da7bcc349cc0ce038a58b15bd",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0xb81A87F651C326642798f7F6698104aB76292626",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0xb81A87F651C326642798f7F6698104aB76292626",
+            "matchId": "53369599",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:28Z"
+          }
+        },
+        {
+          "name": "OpenTokenGenesis",
+          "address": "0x9a5B1Fae714816fB6E0bf3E4B53BFa01Aa9128e9",
+          "contractIdentifier": "src/opentoken/OpenTokenGenesis.sol:OpenTokenGenesis",
+          "deployment": {
+            "transactionHash": "0xfbdd6b554099537034c8af5aa6949f787f9e53f1224b423232fc7b081cb1d3c8",
+            "blockNumber": "51857152",
+            "transactionIndex": "87",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda02913000000000000000000000000b81a87f651c326642798f7f6698104ab76292626000000000000000000000000ff1871570603c98a7308254c7cc26a8a0bc8f9370000000000000000000000006d9b25f186f90ad781ebcf7d205682cccd20708e00000000000000000000000000000000000000000000000000000002540be400",
+          "runtimeHash": "0x0069b35f01ba0adcd5374e00f9c0cb145bec817e0c95c880325273e7afe579d3",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x9a5B1Fae714816fB6E0bf3E4B53BFa01Aa9128e9",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x9a5B1Fae714816fB6E0bf3E4B53BFa01Aa9128e9",
+            "matchId": "53369600",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:28Z"
+          }
+        },
+        {
+          "name": "OpenToken",
+          "address": "0x024f68013b8b7e8E2aB85F3716ee1FE8511b3968",
+          "contractIdentifier": "src/opentoken/OpenToken.sol:OpenToken",
+          "deployment": {
+            "transactionHash": "0xfbdd6b554099537034c8af5aa6949f787f9e53f1224b423232fc7b081cb1d3c8",
+            "blockNumber": "51857152",
+            "transactionIndex": "87",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000b81a87f651c326642798f7f6698104ab7629262600000000000000000000000077cae4a61409956d33ddb7dc063708e6324ae7ee",
+          "runtimeHash": "0x7e0752f454088d634bbf172c30c6459b6fab1ee02459113d84454b2f99f6b66f",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x024f68013b8b7e8E2aB85F3716ee1FE8511b3968",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x024f68013b8b7e8E2aB85F3716ee1FE8511b3968",
+            "matchId": "53369604",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:29Z"
+          }
+        },
+        {
+          "name": "TreasuryVault",
+          "address": "0x6749210938556D215C13Dad2D3f6DFF49DfB9b6D",
+          "contractIdentifier": "src/opentoken/TreasuryVault.sol:TreasuryVault",
+          "deployment": {
+            "transactionHash": "0xfbdd6b554099537034c8af5aa6949f787f9e53f1224b423232fc7b081cb1d3c8",
+            "blockNumber": "51857152",
+            "transactionIndex": "87",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda02913000000000000000000000000024f68013b8b7e8e2ab85f3716ee1fe8511b3968000000000000000000000000b81a87f651c326642798f7f6698104ab76292626000000000000000000000000ff1871570603c98a7308254c7cc26a8a0bc8f9370000000000000000000000006d9b25f186f90ad781ebcf7d205682cccd20708e",
+          "runtimeHash": "0x4811344b18ef680adfd15606d419b8739ac8ab8586ceb7fc669f73903bba77e6",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x6749210938556D215C13Dad2D3f6DFF49DfB9b6D",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x6749210938556D215C13Dad2D3f6DFF49DfB9b6D",
+            "matchId": "53369605",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:29Z"
+          }
+        },
+        {
+          "name": "OpenTokenMinter",
+          "address": "0x77cAe4a61409956d33DDb7dC063708E6324Ae7ee",
+          "contractIdentifier": "src/opentoken/OpenTokenMinter.sol:OpenTokenMinter",
+          "deployment": {
+            "transactionHash": "0xfbdd6b554099537034c8af5aa6949f787f9e53f1224b423232fc7b081cb1d3c8",
+            "blockNumber": "51857152",
+            "transactionIndex": "87",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000024f68013b8b7e8e2ab85f3716ee1fe8511b3968000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda029130000000000000000000000006749210938556d215c13dad2d3f6dff49dfb9b6d000000000000000000000000b81a87f651c326642798f7f6698104ab76292626000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002540be400",
+          "runtimeHash": "0x35a04ed7955483ab64a766cc4c5cfce33af5887c7e6f00bea7b356fa9c168305",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x77cAe4a61409956d33DDb7dC063708E6324Ae7ee",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x77cAe4a61409956d33DDb7dC063708E6324Ae7ee",
+            "matchId": "53369606",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:29Z"
+          }
+        },
+        {
+          "name": "PaidOpenTokenCollector",
+          "address": "0x4F034F5F60F27722736C4c80Ede713cC3FB20D45",
+          "contractIdentifier": "src/opentoken/PaidOpenTokenCollector.sol:PaidOpenTokenCollector",
+          "deployment": {
+            "transactionHash": "0xcb5069cc9895c90189d3577e071ae577a3d7cb5cd024b039c8464c80ce5c0290",
+            "blockNumber": "51857157",
+            "transactionIndex": "99",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000024f68013b8b7e8e2ab85f3716ee1fe8511b39680000000000000000000000006749210938556d215c13dad2d3f6dff49dfb9b6d000000000000000000000000b81a87f651c326642798f7f6698104ab76292626",
+          "runtimeHash": "0x10e707f70482fdf0cda470823b83009c1084c09a5a94ba1ab5024a07e0d90718",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x4F034F5F60F27722736C4c80Ede713cC3FB20D45",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x4F034F5F60F27722736C4c80Ede713cC3FB20D45",
+            "matchId": "53369624",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:39Z"
+          }
+        },
+        {
+          "name": "OpenTokenDepositFactory",
+          "address": "0x5022674732fd593bbC1Af4b6007CaE15b6CF16e8",
+          "contractIdentifier": "src/credits/OpenTokenDepositFactory.sol:OpenTokenDepositFactory",
+          "deployment": {
+            "transactionHash": "0xcb5069cc9895c90189d3577e071ae577a3d7cb5cd024b039c8464c80ce5c0290",
+            "blockNumber": "51857157",
+            "transactionIndex": "99",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000024f68013b8b7e8e2ab85f3716ee1fe8511b39680000000000000000000000004f034f5f60f27722736c4c80ede713cc3fb20d45",
+          "runtimeHash": "0x89063c2af0b289c9b9096e12f8667d414cffa46a982eed41641737b55145d384",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x5022674732fd593bbC1Af4b6007CaE15b6CF16e8",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x5022674732fd593bbC1Af4b6007CaE15b6CF16e8",
+            "matchId": "53369625",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:39Z"
+          }
+        },
+        {
+          "name": "OpenTokenDepositReceiver",
+          "address": "0x4b7B4a2736fAD448Aa0c50E4A8B69F7d9f40696B",
+          "contractIdentifier": "src/credits/OpenTokenDepositFactory.sol:OpenTokenDepositReceiver",
+          "deployment": {
+            "transactionHash": "0xcb5069cc9895c90189d3577e071ae577a3d7cb5cd024b039c8464c80ce5c0290",
+            "blockNumber": "51857157",
+            "transactionIndex": "99",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000024f68013b8b7e8e2ab85f3716ee1fe8511b39680000000000000000000000004f034f5f60f27722736c4c80ede713cc3fb20d45",
+          "runtimeHash": "0x84626908bdf243e51f6370ed4279acc93fb363557a2edcf9f93faac2283101db",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x4b7B4a2736fAD448Aa0c50E4A8B69F7d9f40696B",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x4b7B4a2736fAD448Aa0c50E4A8B69F7d9f40696B",
+            "matchId": "53369626",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:39Z"
+          }
+        },
+        {
+          "name": "OpenTokenPurchaseRouter",
+          "address": "0x4978F88f73201B154A91ad7269BBA10651903950",
+          "contractIdentifier": "src/opentoken/OpenTokenPurchaseRouter.sol:OpenTokenPurchaseRouter",
+          "deployment": {
+            "transactionHash": "0xed396fb71163f6d94e0c7c29a6aa1cbbb6d22d74fe8d51ebe5a50c9994d126d9",
+            "blockNumber": "51857161",
+            "transactionIndex": "21",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000024f68013b8b7e8e2ab85f3716ee1fe8511b3968000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda029130000000000000000000000006749210938556d215c13dad2d3f6dff49dfb9b6d",
+          "runtimeHash": "0x3b7f63d3bb7aee200460aaa9eb2036c9b67869032b1988df11c40b09e3f76efa",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/8453/0x4978F88f73201B154A91ad7269BBA10651903950",
+            "api": "https://sourcify.dev/server/v2/contract/8453/0x4978F88f73201B154A91ad7269BBA10651903950",
+            "matchId": "53369630",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-27T10:08:45Z"
+          }
+        }
+      ],
+      "observation": {
+        "observedAt": "2026-10-01T06:12:50.301Z",
+        "chainId": 8453,
+        "checkpoint": {
+          "number": "52022367",
+          "hash": "0x8c25c0a90408ce15965d8e68070bc2751a55d910a1b8d818363ef4426da4c270",
+          "parentHash": "0x6fc0fed7f2d528eed3f54aef09140ff9eccf7bc2947471d83b54b03c5a0cb21e",
+          "stateRoot": "0xe9ee8412f873deb0046030beb2c21501f2d2978572e804c1d1b2770384900815",
+          "timestamp": "1790834081"
+        },
+        "runtimes": {
+          "OpenTokenTimelock": {
+            "address": "0xb81A87F651C326642798f7F6698104aB76292626",
+            "keccak256": "0x851f348368f6f0311c08d2441a8a684e56e4417da7bcc349cc0ce038a58b15bd"
+          },
+          "OpenTokenGenesis": {
+            "address": "0x9a5B1Fae714816fB6E0bf3E4B53BFa01Aa9128e9",
+            "keccak256": "0x0069b35f01ba0adcd5374e00f9c0cb145bec817e0c95c880325273e7afe579d3"
+          },
+          "OpenToken": {
+            "address": "0x024f68013b8b7e8E2aB85F3716ee1FE8511b3968",
+            "keccak256": "0x7e0752f454088d634bbf172c30c6459b6fab1ee02459113d84454b2f99f6b66f"
+          },
+          "TreasuryVault": {
+            "address": "0x6749210938556D215C13Dad2D3f6DFF49DfB9b6D",
+            "keccak256": "0x4811344b18ef680adfd15606d419b8739ac8ab8586ceb7fc669f73903bba77e6"
+          },
+          "OpenTokenMinter": {
+            "address": "0x77cAe4a61409956d33DDb7dC063708E6324Ae7ee",
+            "keccak256": "0x35a04ed7955483ab64a766cc4c5cfce33af5887c7e6f00bea7b356fa9c168305"
+          },
+          "PaidOpenTokenCollector": {
+            "address": "0x4F034F5F60F27722736C4c80Ede713cC3FB20D45",
+            "keccak256": "0x10e707f70482fdf0cda470823b83009c1084c09a5a94ba1ab5024a07e0d90718"
+          },
+          "OpenTokenDepositFactory": {
+            "address": "0x5022674732fd593bbC1Af4b6007CaE15b6CF16e8",
+            "keccak256": "0x89063c2af0b289c9b9096e12f8667d414cffa46a982eed41641737b55145d384"
+          },
+          "OpenTokenDepositReceiver": {
+            "address": "0x4b7B4a2736fAD448Aa0c50E4A8B69F7d9f40696B",
+            "keccak256": "0x84626908bdf243e51f6370ed4279acc93fb363557a2edcf9f93faac2283101db"
+          },
+          "OpenTokenPurchaseRouter": {
+            "address": "0x4978F88f73201B154A91ad7269BBA10651903950",
+            "keccak256": "0x3b7f63d3bb7aee200460aaa9eb2036c9b67869032b1988df11c40b09e3f76efa"
+          }
+        },
+        "roles": {
+          "governanceSafe": "0x82B8fDaB5ecA2618a5E917e1831010628E366550",
+          "financeSafe": "0xff1871570603C98a7308254c7Cc26a8a0Bc8F937",
+          "guardian": "0x6d9B25f186F90ad781EBcF7d205682cccD20708e",
+          "minter": "0x77cAe4a61409956d33DDb7dC063708E6324Ae7ee",
+          "governanceTimelock": "0xb81A87F651C326642798f7F6698104aB76292626",
+          "authorizedMintTotal": "10000000000",
+          "mintedTotal": "394210000",
+          "totalSupply": "370100000",
+          "vaultPaused": false,
+          "collectorPaused": false,
+          "minDelay": "172800",
+          "withdrawalDelay": "86400",
+          "safeCustody": {
+            "governanceSafe": {
+              "address": "0x82B8fDaB5ecA2618a5E917e1831010628E366550",
+              "owners": [
+                "0x5513e53C040530fad94b8B7b9AbBF1AFcB5b52Cc",
+                "0x9004f29159ab1f67356973e16B94fE960F436808",
+                "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+              ],
+              "threshold": "2"
+            },
+            "financeSafe": {
+              "address": "0xff1871570603C98a7308254c7Cc26a8a0Bc8F937",
+              "owners": [
+                "0x5513e53C040530fad94b8B7b9AbBF1AFcB5b52Cc",
+                "0x9004f29159ab1f67356973e16B94fE960F436808",
+                "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+              ],
+              "threshold": "2"
+            }
+          },
+          "timelockRoles": {
+            "proposer": true,
+            "canceller": true,
+            "openExecutor": true,
+            "selfAdmin": true,
+            "deployerAdmin": false
+          }
+        }
+      }
+    },
+    {
+      "chainId": 143,
+      "originalDeploymentSourceCommit": "144436d36e7982273158279605d1877701fabe61",
+      "compilerVersion": "0.8.36+commit.8a079791",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "evmVersion": "shanghai",
+      "metadataBytecodeHash": "ipfs",
+      "initialAuthorizedMintTotal": "50000000000",
+      "initialSupply": "0",
+      "contracts": [
+        {
+          "name": "OpenTokenTimelock",
+          "address": "0xdc262805f606697b22443018B652438BD2D52567",
+          "contractIdentifier": "src/opentoken/OpenTokenTimelock.sol:OpenTokenTimelock",
+          "deployment": {
+            "transactionHash": "0x24e0e973bcf0d52b73812fdad1616aef0f6f19a5c105c403ddbd02ed02831900",
+            "blockNumber": "109061531",
+            "transactionIndex": "13",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000000000000000000000000000000000000002a300000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000001000000000000000000000000dd4e5337c3e7c0f91647eb54ad506d24ef9da30700000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000",
+          "runtimeHash": "0x851f348368f6f0311c08d2441a8a684e56e4417da7bcc349cc0ce038a58b15bd",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0xdc262805f606697b22443018B652438BD2D52567",
+            "api": "https://sourcify.dev/server/v2/contract/143/0xdc262805f606697b22443018B652438BD2D52567",
+            "matchId": "53998539",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:36:52Z"
+          }
+        },
+        {
+          "name": "OpenTokenGenesis",
+          "address": "0x8c08c23A787BfE9670b0dCcAfEf0f745A60a805e",
+          "contractIdentifier": "src/opentoken/OpenTokenGenesis.sol:OpenTokenGenesis",
+          "deployment": {
+            "transactionHash": "0x2e3a44678458ea217456a62e34f3958c191aba471b766fe73de4e3a77cf44633",
+            "blockNumber": "109061542",
+            "transactionIndex": "10",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000754704bc059f8c67012fed69bc8a327a5aafb603000000000000000000000000dc262805f606697b22443018b652438bd2d52567000000000000000000000000baff5deb01c38c54c9f2c22f7b81a4c2652243a30000000000000000000000006d9b25f186f90ad781ebcf7d205682cccd20708e0000000000000000000000000000000000000000000000000000000ba43b7400",
+          "runtimeHash": "0x53fe681a9773dc0166cbdbdc4dc1d3d23011e5b6ccdf17643ce63c4922909480",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0x8c08c23A787BfE9670b0dCcAfEf0f745A60a805e",
+            "api": "https://sourcify.dev/server/v2/contract/143/0x8c08c23A787BfE9670b0dCcAfEf0f745A60a805e",
+            "matchId": "53998561",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:36:59Z"
+          }
+        },
+        {
+          "name": "OpenToken",
+          "address": "0xcCf3517F5b75B75aA599702c90A8a2CC297791F4",
+          "contractIdentifier": "src/opentoken/OpenToken.sol:OpenToken",
+          "deployment": {
+            "transactionHash": "0x2e3a44678458ea217456a62e34f3958c191aba471b766fe73de4e3a77cf44633",
+            "blockNumber": "109061542",
+            "transactionIndex": "10",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000dc262805f606697b22443018b652438bd2d525670000000000000000000000008d47e2e2358a0ff1ba6d9a4716365f338f8f2913",
+          "runtimeHash": "0x01d582c4b5e001a8c521b076a009a2f1fda9c39e6672263e74e0150b7eef4aad",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0xcCf3517F5b75B75aA599702c90A8a2CC297791F4",
+            "api": "https://sourcify.dev/server/v2/contract/143/0xcCf3517F5b75B75aA599702c90A8a2CC297791F4",
+            "matchId": "53998562",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:37:03Z"
+          }
+        },
+        {
+          "name": "TreasuryVault",
+          "address": "0x61978CB2e675a2a317F715e8EFD2285D10D68272",
+          "contractIdentifier": "src/opentoken/TreasuryVault.sol:TreasuryVault",
+          "deployment": {
+            "transactionHash": "0x2e3a44678458ea217456a62e34f3958c191aba471b766fe73de4e3a77cf44633",
+            "blockNumber": "109061542",
+            "transactionIndex": "10",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000754704bc059f8c67012fed69bc8a327a5aafb603000000000000000000000000ccf3517f5b75b75aa599702c90a8a2cc297791f4000000000000000000000000dc262805f606697b22443018b652438bd2d52567000000000000000000000000baff5deb01c38c54c9f2c22f7b81a4c2652243a30000000000000000000000006d9b25f186f90ad781ebcf7d205682cccd20708e",
+          "runtimeHash": "0x75146dc1fce3ee146b0a60d509f7254b0a6e2b9b3ad347e4483c3c6b7ad50a24",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0x61978CB2e675a2a317F715e8EFD2285D10D68272",
+            "api": "https://sourcify.dev/server/v2/contract/143/0x61978CB2e675a2a317F715e8EFD2285D10D68272",
+            "matchId": "53998563",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:37:08Z"
+          }
+        },
+        {
+          "name": "OpenTokenMinter",
+          "address": "0x8d47e2e2358a0FF1Ba6d9a4716365f338F8f2913",
+          "contractIdentifier": "src/opentoken/OpenTokenMinter.sol:OpenTokenMinter",
+          "deployment": {
+            "transactionHash": "0x2e3a44678458ea217456a62e34f3958c191aba471b766fe73de4e3a77cf44633",
+            "blockNumber": "109061542",
+            "transactionIndex": "10",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000ccf3517f5b75b75aa599702c90a8a2cc297791f4000000000000000000000000754704bc059f8c67012fed69bc8a327a5aafb60300000000000000000000000061978cb2e675a2a317f715e8efd2285d10d68272000000000000000000000000dc262805f606697b22443018b652438bd2d5256700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ba43b7400",
+          "runtimeHash": "0xafdde238b19339688d7ecdc833ddddab70efe1257e136d5a91188eaec011d730",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0x8d47e2e2358a0FF1Ba6d9a4716365f338F8f2913",
+            "api": "https://sourcify.dev/server/v2/contract/143/0x8d47e2e2358a0FF1Ba6d9a4716365f338F8f2913",
+            "matchId": "53998566",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:37:11Z"
+          }
+        },
+        {
+          "name": "PaidOpenTokenCollector",
+          "address": "0x526875a09d2dd24114cA4454573e3AbDc99cA31E",
+          "contractIdentifier": "src/opentoken/PaidOpenTokenCollector.sol:PaidOpenTokenCollector",
+          "deployment": {
+            "transactionHash": "0x8bcd05f3f949e1b64dba2c0b1d2e493258b265565dcbaeeb13d79a3cd449e4fc",
+            "blockNumber": "109061553",
+            "transactionIndex": "19",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000ccf3517f5b75b75aa599702c90a8a2cc297791f400000000000000000000000061978cb2e675a2a317f715e8efd2285d10d68272000000000000000000000000dc262805f606697b22443018b652438bd2d52567",
+          "runtimeHash": "0x9b04a2757aa180189e24f997871969e5448ac3b2e73cfcfee960ca7ddd07e6bf",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0x526875a09d2dd24114cA4454573e3AbDc99cA31E",
+            "api": "https://sourcify.dev/server/v2/contract/143/0x526875a09d2dd24114cA4454573e3AbDc99cA31E",
+            "matchId": "53998581",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:37:14Z"
+          }
+        },
+        {
+          "name": "OpenTokenDepositFactory",
+          "address": "0xedB30485b755c46dA0FcF841ded8aCc401E489b2",
+          "contractIdentifier": "src/credits/OpenTokenDepositFactory.sol:OpenTokenDepositFactory",
+          "deployment": {
+            "transactionHash": "0x8bcd05f3f949e1b64dba2c0b1d2e493258b265565dcbaeeb13d79a3cd449e4fc",
+            "blockNumber": "109061553",
+            "transactionIndex": "19",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000ccf3517f5b75b75aa599702c90a8a2cc297791f4000000000000000000000000526875a09d2dd24114ca4454573e3abdc99ca31e",
+          "runtimeHash": "0x0d8ee1d1d6f59001afa5f991253e065ce164cc5d90daa6e7540cc88e9451605f",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0xedB30485b755c46dA0FcF841ded8aCc401E489b2",
+            "api": "https://sourcify.dev/server/v2/contract/143/0xedB30485b755c46dA0FcF841ded8aCc401E489b2",
+            "matchId": "53998584",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:37:18Z"
+          }
+        },
+        {
+          "name": "OpenTokenDepositReceiver",
+          "address": "0x84Db4cdAf8ae4C3C2cCaAbA8cF9C6BecA478F846",
+          "contractIdentifier": "src/credits/OpenTokenDepositFactory.sol:OpenTokenDepositReceiver",
+          "deployment": {
+            "transactionHash": "0x8bcd05f3f949e1b64dba2c0b1d2e493258b265565dcbaeeb13d79a3cd449e4fc",
+            "blockNumber": "109061553",
+            "transactionIndex": "19",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000ccf3517f5b75b75aa599702c90a8a2cc297791f4000000000000000000000000526875a09d2dd24114ca4454573e3abdc99ca31e",
+          "runtimeHash": "0xa86f4d9db1ee09e46c3c797f5e121758969c85dff28959a661a5a8d8f80ca543",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0x84Db4cdAf8ae4C3C2cCaAbA8cF9C6BecA478F846",
+            "api": "https://sourcify.dev/server/v2/contract/143/0x84Db4cdAf8ae4C3C2cCaAbA8cF9C6BecA478F846",
+            "matchId": "53998588",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:37:22Z"
+          }
+        },
+        {
+          "name": "OpenTokenPurchaseRouter",
+          "address": "0x2B8D237d269EdD369Cd1BDA90d98A0Be94129c47",
+          "contractIdentifier": "src/opentoken/OpenTokenPurchaseRouter.sol:OpenTokenPurchaseRouter",
+          "deployment": {
+            "transactionHash": "0x8fb2b18af3a696e8cb7187bf858de156c9b6c3e62d7b2c5490b6a872801b23b7",
+            "blockNumber": "109061564",
+            "transactionIndex": "11",
+            "deployer": "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447"
+          },
+          "constructorArguments": "0x000000000000000000000000ccf3517f5b75b75aa599702c90a8a2cc297791f4000000000000000000000000754704bc059f8c67012fed69bc8a327a5aafb60300000000000000000000000061978cb2e675a2a317f715e8efd2285d10d68272",
+          "runtimeHash": "0xa99e7f07b291adf3a62a8776dcb9c82d301d28b60de6a4be9ae2bda535166e74",
+          "verification": {
+            "service": "Sourcify",
+            "url": "https://repo.sourcify.dev/143/0x2B8D237d269EdD369Cd1BDA90d98A0Be94129c47",
+            "api": "https://sourcify.dev/server/v2/contract/143/0x2B8D237d269EdD369Cd1BDA90d98A0Be94129c47",
+            "matchId": "53998606",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-29T14:37:26Z"
+          }
+        }
+      ],
+      "observation": {
+        "observedAt": "2026-10-01T06:13:13.757Z",
+        "chainId": 143,
+        "checkpoint": {
+          "number": "109533520",
+          "hash": "0xf614e88744dc38bd8ce733855586bc1a49635fda140d9f16b938b1075d1ba6ee",
+          "parentHash": "0xa5d2a19301c6b4a4e4afc9070ea1cc096898ac66a23127832a4c3b5a3f89f2e4",
+          "stateRoot": "0xa1733aa65b9f29fd978b2445a718cddaf453a9a4b9316009bf0f824dd3c2eff3",
+          "timestamp": "1790835192"
+        },
+        "runtimes": {
+          "OpenTokenTimelock": {
+            "address": "0xdc262805f606697b22443018B652438BD2D52567",
+            "keccak256": "0x851f348368f6f0311c08d2441a8a684e56e4417da7bcc349cc0ce038a58b15bd"
+          },
+          "OpenTokenGenesis": {
+            "address": "0x8c08c23A787BfE9670b0dCcAfEf0f745A60a805e",
+            "keccak256": "0x53fe681a9773dc0166cbdbdc4dc1d3d23011e5b6ccdf17643ce63c4922909480"
+          },
+          "OpenToken": {
+            "address": "0xcCf3517F5b75B75aA599702c90A8a2CC297791F4",
+            "keccak256": "0x01d582c4b5e001a8c521b076a009a2f1fda9c39e6672263e74e0150b7eef4aad"
+          },
+          "TreasuryVault": {
+            "address": "0x61978CB2e675a2a317F715e8EFD2285D10D68272",
+            "keccak256": "0x75146dc1fce3ee146b0a60d509f7254b0a6e2b9b3ad347e4483c3c6b7ad50a24"
+          },
+          "OpenTokenMinter": {
+            "address": "0x8d47e2e2358a0FF1Ba6d9a4716365f338F8f2913",
+            "keccak256": "0xafdde238b19339688d7ecdc833ddddab70efe1257e136d5a91188eaec011d730"
+          },
+          "PaidOpenTokenCollector": {
+            "address": "0x526875a09d2dd24114cA4454573e3AbDc99cA31E",
+            "keccak256": "0x9b04a2757aa180189e24f997871969e5448ac3b2e73cfcfee960ca7ddd07e6bf"
+          },
+          "OpenTokenDepositFactory": {
+            "address": "0xedB30485b755c46dA0FcF841ded8aCc401E489b2",
+            "keccak256": "0x0d8ee1d1d6f59001afa5f991253e065ce164cc5d90daa6e7540cc88e9451605f"
+          },
+          "OpenTokenDepositReceiver": {
+            "address": "0x84Db4cdAf8ae4C3C2cCaAbA8cF9C6BecA478F846",
+            "keccak256": "0xa86f4d9db1ee09e46c3c797f5e121758969c85dff28959a661a5a8d8f80ca543"
+          },
+          "OpenTokenPurchaseRouter": {
+            "address": "0x2B8D237d269EdD369Cd1BDA90d98A0Be94129c47",
+            "keccak256": "0xa99e7f07b291adf3a62a8776dcb9c82d301d28b60de6a4be9ae2bda535166e74"
+          }
+        },
+        "roles": {
+          "governanceSafe": "0xdD4E5337C3E7c0F91647eb54ad506d24Ef9dA307",
+          "financeSafe": "0xbaFf5DEB01c38c54c9F2C22F7b81a4C2652243a3",
+          "guardian": "0x6d9B25f186F90ad781EBcF7d205682cccD20708e",
+          "minter": "0x8d47e2e2358a0FF1Ba6d9a4716365f338F8f2913",
+          "governanceTimelock": "0xdc262805f606697b22443018B652438BD2D52567",
+          "authorizedMintTotal": "50000000000",
+          "mintedTotal": "0",
+          "totalSupply": "0",
+          "vaultPaused": false,
+          "collectorPaused": false,
+          "minDelay": "172800",
+          "withdrawalDelay": "86400",
+          "safeCustody": {
+            "governanceSafe": {
+              "address": "0xdD4E5337C3E7c0F91647eb54ad506d24Ef9dA307",
+              "owners": [
+                "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447",
+                "0x9004f29159ab1f67356973e16B94fE960F436808",
+                "0x5513e53C040530fad94b8B7b9AbBF1AFcB5b52Cc"
+              ],
+              "threshold": "2"
+            },
+            "financeSafe": {
+              "address": "0xbaFf5DEB01c38c54c9F2C22F7b81a4C2652243a3",
+              "owners": [
+                "0x5Ac53583aF5Dc890824F293ddaF9A95a640DA447",
+                "0x9004f29159ab1f67356973e16B94fE960F436808",
+                "0x5513e53C040530fad94b8B7b9AbBF1AFcB5b52Cc"
+              ],
+              "threshold": "2"
+            }
+          },
+          "timelockRoles": {
+            "proposer": true,
+            "canceller": true,
+            "openExecutor": true,
+            "selfAdmin": true,
+            "deployerAdmin": false
+          }
+        }
+      }
+    }
+  ]
+}

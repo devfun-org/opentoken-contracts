@@ -1,0 +1,10 @@
+node_modules/
+cache/
+out/
+broadcast/
+dist/
+lcov.info
+.env
+.env.*
+*.log
+.DS_Store

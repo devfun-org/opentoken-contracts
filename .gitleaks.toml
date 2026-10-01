@@ -1,0 +1,23 @@
+title = "OpenToken secret scanning"
+
+[extend]
+useDefault = true
+
+# Only complete, public address/hash field lines are exempted. No files,
+# directories, commits or operational credentials are exempted.
+[allowlist]
+description = "Public EVM address fields and deployed runtime hashes only"
+regexTarget = "line"
+regexes = [
+  '''^\s*"(?:token|coreToken)"\s*:\s*"0x[0-9a-fA-F]{40}",?\s*$''',
+  '''^\s*Token: `0x[0-9a-fA-F]{40}`;?\s*$''',
+  '''^\s*"(?:OpenToken|OpenTokenGenesis|OpenTokenMinter|OpenTokenTimelock|OpenTokenPurchaseRouter|OpenTokenDepositFactory|OpenTokenDepositReceiver|PaidOpenTokenCollector)"\s*:\s*"0x[0-9a-fA-F]{64}",?\s*$''',
+  '''^\s*"(?:src/(?:opentoken|credits)/[A-Za-z]+\.sol|verification/compiler-inputs/[A-Za-z]+\.standard-input\.json)"\s*:\s*"[a-f0-9]{64}",?\s*$''',
+]
+
+[[rules]]
+id = "evm-private-key-assignment"
+description = "EVM private key assigned to a key-bearing field"
+regex = '''(?i)(?:private[_-]?key|secret[_-]?key|mnemonic[_-]?key)[a-z0-9_\s"']{0,40}[:=]\s*["']?(0x[a-f0-9]{64}|[a-f0-9]{64})(?:["'\s,;]|$)'''
+secretGroup = 1
+keywords = ["private", "secret"]
